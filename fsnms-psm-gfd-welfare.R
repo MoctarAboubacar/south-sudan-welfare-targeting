@@ -14,7 +14,7 @@ require(survey)
 
 
 ## data
-dat <- read_sav("C:/Users/moctar.aboubacar/Desktop/FSNMS data/fsnms.23.sav") # for data privacy reasons, we aren't sharing any of the actual data here in this repository, just the code to produce results.
+dat <- read_sav(here::here("data", "fsnms.23.sav")) # for data privacy reasons, we aren't sharing any of the actual data here in this repository, just the code to produce results.
 glimpse(dat)
 sum <- introduce(dat)
 
